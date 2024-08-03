@@ -1,8 +1,9 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
   background: linear-gradient(45deg, #ffffff, #a5a6f6);
-  width: 1440px;
-  height: 1024px;
 }
 
 nav {
@@ -51,7 +52,75 @@ nav {
   height: 22px;
   position: absolute;
   left: 573px;
-  top: 929px;
+  top: 600px;
   font-size: 13px;
   font-weight: 300;
+}
+
+.content {
+  display: flex;
+  position: absolute;
+  max-width: 50%;
+  padding-right: 20px;
+  left: 164px;
+  top: 160px;
+}
+
+#halo-selamat-datang {
+  width: 268px;
+  height: 36px;
+  font-size: 23px;
+  font-weight: 600;
+  color: #ef5da8;
+}
+
+#temukan {
+  font-size: 48px;
+  font-weight: 800;
+  width: 546px;
+  height: 144px;
+  padding: 5px;
+}
+
+#bekerjalah {
+  font-size: 14px;
+  width: 369px;
+  height: 54px;
+  font-weight: 200;
+}
+
+#elipse {
+  position: absolute;
+  width: 450px;
+  height: 435px;
+  left: 670px;
+  top: 2px;
+}
+#rocket {
+  position: absolute;
+  width: 393.82px;
+  height: 567.74px;
+  left: 710px;
+  top: -100px;
+}
+#code {
+  position: absolute;
+  width: 121px;
+  height: 121px;
+  left: 920px;
+  top: -30px;
+}
+#fire {
+  position: absolute;
+  width: 121px;
+  height: 121px;
+  left: 1020px;
+  top: 220px;
+}
+#coin {
+  position: absolute;
+  width: 121px;
+  height: 121px;
+  left: 630px;
+  top: 150px;
 }
