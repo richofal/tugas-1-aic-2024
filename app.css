@@ -1,0 +1,47 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(45deg, #ffffff, #a5a6f6);
+  width: 1440px;
+  height: 1024px;
+}
+
+nav {
+  display: flex;
+  box-sizing: border-box;
+  position: absolute;
+  left: 164px;
+  top: 30px;
+  text-decoration: none;
+  width: 1087px;
+  height: 30px;
+}
+
+.navbar-menu {
+  width: 415px;
+  height: 21px;
+  position: absolute;
+  left: 672px;
+  top: 0px;
+}
+
+.navbar-menu span {
+  display: inline;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+#cari-duit a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  width: 86px;
+  height: 30px;
+}
+
+.menu {
+  font-size: 14px;
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
