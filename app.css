@@ -64,6 +64,9 @@ nav {
   padding-right: 20px;
   left: 164px;
   top: 160px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 #halo-selamat-datang {
@@ -123,4 +126,34 @@ nav {
   height: 121px;
   left: 630px;
   top: 150px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  left: 164px;
+  top: 160px;
+  margin-top: -50px;
+  margin-left: -13px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0px; 
+  font-size: 18px;
+  border-radius: 15px;
+}
+#daftar, #login {
+  flex: 1;
+}
+#daftar {
+  background-color: #5D5FEF;
+}
+#login {
+  background-color: white;
+  color: black;
+  border: 1px solid #5D5FEF;
 }
